@@ -1,0 +1,271 @@
+html,body{
+    height:100%;
+    color:whitesmoke;
+    font-family: 'Marvel', sans-serif;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+
+.navbar{
+   
+    background-color: #ff1616;
+    font-family: 'Eczar', serif;
+    font-size:x-large;
+    outline-color: black;
+    
+  
+
+}
+
+.img-container{
+    background-image: url(calltoaction.png);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+  }
+  
+  .inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color:black;
+    height: auto;
+    margin-top: 200px;
+  
+  
+  }
+
+  h1{
+    font-size: 7em;
+    font-family: 'Eczar', serif;
+    color: white;
+    
+  }
+
+  h2{
+    color: white; 
+    font-size: 4.5em;
+    font-family:  'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+h5{
+  font-family:  'Open Sans', sans-serif;
+}
+
+h3{
+  font-family:  'Open Sans', sans-serif;
+  color:black;
+}
+
+p{
+    font-size:x-large;
+    font-family:  'Open Sans', sans-serif;
+    color: black;
+}
+
+.jumbotron{
+    
+  background-color:rgb(19, 18, 18);
+  box-shadow: 10px 10px #ff1616;
+}
+
+
+  
+  #myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #ff1616; 
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color:darkred; /* Add a dark-grey background on hover */
+  }
+
+  .btn{
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: white;
+    color: #ff1616;
+    text-align: center;
+    outline-color: black;
+    text-decoration:none;
+    margin-top: 50px;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  
+  
+  }
+  
+  .btn:hover,.btnactive{
+    background-color: #ff1616;
+    text-shadow: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+  
+  @media only screen and (max-width: 920px){
+    .inner-container{
+      margin-top: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 540px){
+    .inner-container{
+      margin-top: 150px;
+  
+    }
+    h1{
+      font-size: 4em;
+    }
+    h2{
+      font-size: 2.5em;
+    }
+  }
+  
+  ion-icon {
+    font-size: 30px;
+    color: black;
+  }
+  a.ion-icon{
+    color:black;
+}
+
+hr.solid {
+  border-top: 2px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(201, 49, 49, 0.664);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family:  'Open Sans', sans-serif;
+}
+
+.price {
+  color: rgb(87, 84, 84);
+  font-size: 28px;
+  font-family:  'Open Sans', sans-serif;
+}
+
+a.button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #ff1616;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+a.button:hover {
+  opacity: 0.7;
+}
+
+/*START OF CONTACT FORM*/
+.container2 {
+  color: black;
+  display: flex-box;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:10px;
+  background-color:#ff1616;
+  box-shadow: 10px 10px black;
+  font-family:  'Open Sans', sans-serif;
+  
+  
+}
+
+.form-group{
+margin-bottom: 1.5em;
+color: whitesmoke;
+}
+
+.form-label{
+font-size: 1.25em;
+color: black;
+display:block;
+opacity:1;
+}
+
+.form-control{
+background-color: whitesmoke;
+box-shadow:none;
+border-radius:0;
+border-color: black;
+border-style: 10px solid;
+width:100%;
+}
+
+.form-control:focus{
+box-shadow:none;
+outline:none;
+}
+
+
+
+.formbtn{
+background: whitesmoke;
+color:black;
+border:1px solid #34442b;
+border-radius:3px;
+font-size: 1em;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:20px;
+padding-right:20px;
+text-transform: uppercase;
+}
+
+.formbtn:hover{
+background: black;
+color: white;
+}
+
+textarea{
+resize:none;
+}
+
+/*END OF CONTACT FORM*/
+  
+
+.footer{
+  background-color: #ff1616;
+  color: white;
+  text-align: center;
+  overflow:hidden;
+  max-height: 75px;
+  max-width: 100%;
+  position:sticky;
+  margin-top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ }
